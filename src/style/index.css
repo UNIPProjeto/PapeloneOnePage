@@ -1,0 +1,68 @@
+/*
+
+    Classes utilizadas para o desenvolvimento
+
+*/
+
+.borda{
+    border: 1px solid black;
+}
+
+/*----------------------------------------------*/
+
+/* NAV BAR */
+
+.navbarprincipal{
+    background: linear-gradient(to bottom, #A8720E, #FFB630,#CF9220);;
+}
+
+/* NAV BAR*/
+
+
+.homeproduto-background{
+
+    background: linear-gradient(
+        rgba(255, 140, 0, 0.5),
+        rgba(255, 140, 0, 0.5)
+    ),
+    url("../assets/image/paes_e_massas_biscoito.png");
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+}
+
+.sessao1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    max-width: 1100px; /* melhor que 80% */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.backpapelonesobre {
+    background-color: #FFB630;
+    border-radius: 20px;
+}
+
+.papelonesobre {
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.backimagemsessao1 {
+    background-color: #FFAB0F;
+    border-radius: 20px;
+}
+
+.backimagemsessao1 img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
