@@ -336,6 +336,28 @@ body {
     font-size: 14px;
 }
 
+.logo-navbar {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.footer-logo {
+    display: block;
+    width: 220px;
+    max-width: 80%;
+    height: auto;
+    margin: 35px auto 0 auto;
+    object-fit: contain;
+}
+
 @media (max-width: 992px) {
     .grid-usos {
         grid-template-columns: 1fr 1fr;
@@ -403,6 +425,16 @@ body {
     .container-footer {
         grid-template-columns: 1fr 1fr;
     }
+
+    .logo {
+        width: 120px;
+    }
+
+        .footer-logo {
+        width: 180px;
+        max-width: 70%;
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -435,5 +467,14 @@ body {
 
     .item-uso::after {
         display: none;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .footer-logo {
+        width: 150px;
+        max-width: 65%;
     }
 }
