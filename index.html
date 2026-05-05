@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="./src/js/index.js" defer></script> <!-- COLOQUEI UM DEFER PARA QUE O SCRIPT SEJA CARREGADO DEPOIS DA PAGINA -->
+    <script src="./src/js/index.js" defer></script> <!-- COLOQUEI AQUI UM DEFER PARA QUE O SCRIPT SEJA CARREGADO DEPOIS DA PAGINA, FAVOR NÃO REMOVER -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
     <title>Document</title>
 </head>
 <body>
 
-    <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg navbar-light navbarprincipal fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Logo</a>
@@ -27,14 +26,18 @@
                     <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Produtos
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item text-white" href="#">Mesa e Doces</a></li>
-                        <li><a class="dropdown-item text-white" href="#">Bolos e Festas</a></li>
-                        <li><a class="dropdown-item text-white" href="#">Pães e Massas</a></li>
+                    <ul class="dropdown-menu navbarprincipal" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item text-white" href="beneficios.html#paes">Pães e Massas</a></li>
+                        <li><a class="dropdown-item text-white" href="beneficios.html#bolos">Bolos e Festas</a></li>
+                        <li><a class="dropdown-item text-white" href="beneficios.html#salgados">Salgados</a></li>
+                        <li><a class="dropdown-item text-white" href="beneficios.html#doces">Doces</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#nossaequipesessao">Nossa Equipe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./ods.html">ODS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#Contatos">Contatos</a>
@@ -43,10 +46,6 @@
             </div>
         </div>
     </nav>
-
-    <!-- NAV BAR -->
-
-    <!-- CARROSEL -->
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -87,10 +86,6 @@
         </button>
     </div>
 
-    <!-- CARROSEL -->
-
-    <!-- PAPELONE -->
-
     <div id="papelonesessao" class="d-flex justify-content-center align-items-center homeproduto-background">
         <section class="p-4 mt-4 mb-4 sessao1">
 
@@ -116,10 +111,6 @@
         </section>
     </div>
 
-    <!-- PAPELONE -->
-
-    <!-- Usos do produto -->
-
     <section class="usos-produto" id="produtopapelo">
     <div class="container-usos">
 
@@ -131,7 +122,7 @@
 
             <div class="item-uso">
                 <span>PÃES</span>
-                <img class="img-uso" src="./src/assets/image/paes_e_massas_homemcomendo.png">
+                <img class="img-uso" src="./src/assets/image/pao.png">
                 <p>
                     Ideal para pães artesanais e industriais, o Papelone evita o contato direto com superfícies, mantendo a higiene e facilitando o manuseio sem alterar o sabor.
                 </p>
@@ -139,7 +130,7 @@
 
             <div class="item-uso">
                 <span>BOLOS</span>
-                <img class="img-uso" src="./src/assets/image/paes_e_massas_homemcomendo.png">
+                <img class="img-uso" src="./src/assets/image/bolos.png">
                 <p>
                     Perfeito para bolos e sobremesas, o Papelone auxilia na separação e apresentação dos alimentos, oferecendo uma alternativa comestível e prática.
                 </p>
@@ -147,7 +138,7 @@
 
             <div class="item-uso">
                 <span>SALGADOS</span>
-                <img class="img-uso" src="./src/assets/image/paes_e_massas_homemcomendo.png">
+                <img class="img-uso" src="./src/assets/image/salgados1.png">
                 <p>
                     Muito utilizado em salgados, o Papelone substitui papéis e panos no manuseio, garantindo mais higiene e praticidade no consumo.
                 </p>
@@ -155,7 +146,7 @@
 
             <div class="item-uso">
                 <span>DOCES</span>
-                <img class="img-uso" src="./src/assets/image/paes_e_massas_homemcomendo.png">
+                <img class="img-uso" src="./src/assets/image/brigadeiro.png">
                 <p>
                     Ideal para doces e festas, permite segurar alimentos de forma limpa e segura, sem gerar resíduos e sem interferir no sabor.
                 </p>
@@ -165,10 +156,6 @@
 
     </div>
     </section>
-
-    <!-- Usos do produto -->
-
-    <!-- Beneficios a saude -->
 
     <section class="beneficios">
     
@@ -187,10 +174,6 @@
 
     </section>
 
-    <!-- Beneficios a saude -->
-
-    <!-- Time -->
-
     <section class="time" id="nossaequipesessao">
 
         <div class="titulo-time">
@@ -201,52 +184,48 @@
 
             <div class="card-membro">
                 <div class="imagem-membro">
-                    <img src="./src/assets/image/default/pessoaicon.webp">
+                    <img src="./src/assets/image/membro1.jpeg" style="object-position: center 30%;">
                 </div>
 
                 <div class="info-membro">
-                    <h5>Função do membro</h5>
-                    <p>Detalhes e descrição do membro</p>
+                    <h5>Thiago</h5>
+                    <p>Desenvolvedor Front End</p>
                 </div>
             </div>
 
             <div class="card-membro">
                 <div class="imagem-membro">
-                    <img src="./src/assets/image/default/pessoaicon.webp">
+                    <img src="./src/assets/image/membro2.jpeg">
                 </div>
                 <div class="info-membro">
-                    <h5>Função do membro</h5>
-                    <p>Detalhes e descrição do membro</p>
+                    <h5>Jean</h5>
+                    <p>Desenvolvedor Front End</p>
                 </div>
             </div>
 
             <div class="card-membro">
                 <div class="imagem-membro">
-                    <img src="./src/assets/image/default/pessoaicon.webp">
+                    <img src="./src/assets/image/membro3.jpeg">
                 </div>
                 <div class="info-membro">
-                    <h5>Função do membro</h5>
-                    <p>Detalhes e descrição do membro</p>
+                    <h5>Pedro</h5>
+                    <p>Desenvolvedor Front End</p>
                 </div>
             </div>
 
             <div class="card-membro">
                 <div class="imagem-membro">
-                    <img src="./src/assets/image/default/pessoaicon.webp">
+                    <img src="./src/assets/image/membro4.jpg">
                 </div>
                 <div class="info-membro">
-                    <h5>Função do membro</h5>
-                    <p>Detalhes e descrição do membro</p>
+                    <h5>João Paulo</h5>
+                    <p>Desenvolvedor Front End</p>
                 </div>
             </div>
 
         </div>
 
     </section>
-
-    <!-- Time -->
-
-    <!-- Footer -->
 
     <footer class="footer" id="Contatos">
 
@@ -293,8 +272,6 @@
         </div>
 
     </footer>
-
-    <!-- Footer -->
 
 </body>
 </html>

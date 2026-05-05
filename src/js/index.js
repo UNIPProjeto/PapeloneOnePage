@@ -1,3 +1,4 @@
+/* Não alterem isso, ele controla a animação da navbar */ 
 let lastScroll = 0;
 const navbar = document.querySelector(".navbar");
 
